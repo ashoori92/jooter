@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<html>
+<head>
+    <title>
+        سفارش پروژه
+    </title>
+	 <style>
+  .modal-header, h4, .close {
+      background-color: #021B21;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+  .price-container input{
+  display:block
+  ;width:250px;
+  margin-left:auto;text-align:right;margin-top:20px;
+  }
+  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type='text/javascript'>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1430469216569-0'); });
+    </script>
+	</head>
+
+ <body style="background-color: #dedee0;">
+           
+		<div class="container">
+            <div class="modal-content" style="width:500px;margin:auto;">
+               <div class="modal-header" style="padding:35px 50px;">
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+               <h4> سفارش پروژه</h4>
+               </div>
+                 <div class="modal-body" style="padding:40px 50px;">
+                 <form role="form">
+		           <form action="demo_form.asp" style="text-align:right;">
+		           <div>
+		           <label for="title">موضوع</label>
+		           </div>
+		
+                   <select name="موضوع" style="width:250px;height:35px;text-align:right;padding:0 0 0 188px;border-radius:5px;">
+                   <option value="ریاضی">ریاضی</option>
+                   <option value="کامپیوتر">کامپیوتر</option>
+  
+                   </select>
+
+                   </form>
+          
+
+               
+                <form role="form">
+                      <div class="form-group" style="margin-right:0px;">
+                      <label for="title">نام</label>
+                      <input type="text" class="form-control" id="pwd" placeholder="نام">
+                      </div>
+					  <div class="field-container">    
+					    <label for="v09">قیمت</label>      
+					    <div class="field-input">                               
+					    <select class="input-price validate-ignore" onchange="newPostPriceCombo(this,'v09')" style="width:250px;height:35px;text-align:right;padding:0 0 0 150px;border-radius:5px;">       
+					    <option value="1">مقطوع به تومان</option> 
+					    <option value="0">مجانی</option>              
+                        <option value="-1">توافقی</option>                                              
+					    </select>   
+				        <div class="price-container">            
+					    <input type="text" name="v09" id="v09"  placeholder=" (50هزار تومان)" class="form-control" >      
+					    </div>
+					    </div>               
+					    <div class="persian-price" id="persian-price-v09" style="display: none;">
+					    </div> 
+					   </div>
+					   <div class="form-group" style="margin:auto;">
+                        <label for="title" >عنوان</label>
+                        <input type="text" class="form-control" id="pwd" placeholder="عنوان">
+					   </div>
+                       <div class="form-group">
+
+                        <label for="title">ایمیل</label>
+                        <input type="email" class="form-control" id="email" placeholder="ایمیل خود را وارد نمایید" >
+                       </div>
+                    
+                       <textarea style="margin-left:auto; width:400px" rows="7" cols="54" style="width:400px;" name="comment" form="usrform">
+                       </textarea>
+                       <br>
+					   <input type="file" id="myFile" style="text-align:right;">
+                       <div style="margin-top:10px;margin-left:auto;">
+					    <button type="submit" class="btn btn-default" style="background-color:#032C36"><a href="footer.html">بازگشت به صفحه اصلی</a></button>
+                        <button type="submit" class="btn btn-default" >ارسال</button>
+				       </div>
+                </form>
+
+
+           
+            
+           </div>
+       
+          </div>
+      
+        </div>
+
+
+    </body>
+</html>
